@@ -3,7 +3,7 @@ skin: "/assets/css/skins/dark.css"
 
 locale: en-GB
 title: "Memory Palace"
-description: "Occasional notes and recollections from an incomplete memory palace."
+description: "Occasional notes from an incomplete memory palace."
 url: "https://markbarlow.github.io"
 baseurl: "/memory-palace"
 
