@@ -1,0 +1,16 @@
+---
+sitemap: false
+---
+
+@charset "utf-8";
+
+// Newsreader font
+$serif-font-family: "Newsreader", Georgia, Times, serif;
+$sans-serif-font-family: "Newsreader", Georgia, Times, serif;
+$base-font-family: $serif-font-family;
+$headline-font-family: $serif-font-family;
+$title-font-family: $serif-font-family;
+$description-font-family: $serif-font-family;
+$meta-font-family: $serif-font-family;
+
+@import "so-simple";
