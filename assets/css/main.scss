@@ -13,4 +13,8 @@ $title-font-family: $serif-font-family;
 $description-font-family: $serif-font-family;
 $meta-font-family: $serif-font-family;
 
+// Override default variables for weight
+$entry-title-weight: normal;
+$page-title-weight: normal;
+
 @import "so-simple";
