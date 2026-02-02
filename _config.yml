@@ -3,11 +3,11 @@ skin: "/assets/css/skins/dark.css"
 
 locale: en-GB
 title: "Memory Palace"
-description: "Occasional notes from an incomplete memory palace."
+description: "Occasional notes from an incomplete memory palace"
 url: "https://markbarlow.github.io"
 baseurl: "/memory-palace"
 
-date_format: "%B %-d, %Y"
+date_format: "%B %Y"
 words_per_minute: 200
 
 google_fonts:
