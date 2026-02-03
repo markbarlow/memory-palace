@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(ruby -ropenssl -e:*)",
+      "Bash(brew upgrade:*)",
+      "Bash(ruby:*)",
+      "Bash(curl:*)",
+      "Bash(brew reinstall:*)",
+      "Bash(SSL_CERT_FILE=/opt/homebrew/etc/ca-certificates/cert.pem bundle exec jekyll:*)",
+      "WebFetch(domain:markbarlow.github.io)",
+      "WebFetch(domain:www.markbarlow.co.uk)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api:*)",
+      "Bash(python3:*)",
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(git -C /Users/Mark/Github/memory-palace status)",
+      "Bash(git -C /Users/Mark/Github/memory-palace diff)",
+      "Bash(git -C /Users/Mark/Github/memory-palace log --oneline -3)",
+      "Bash(git -C /Users/Mark/Github/memory-palace add _layouts/post.html)",
+      "Bash(git -C /Users/Mark/Github/memory-palace commit -m \"$\\(cat <<''EOF''\nUse Liquid comment for categories include\n\nReplaces HTML comment with Liquid comment to prevent the\ninclude from being processed during build.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /Users/Mark/Github/memory-palace push)",
+      "Bash(/opt/homebrew/opt/openssl@3/bin/openssl version:*)",
+      "Bash(SSL_CERT_FILE=/opt/homebrew/etc/ca-certificates/cert.pem ruby:*)",
+      "Bash(rbenv install:*)",
+      "Bash(SSL_CERT_FILE=/opt/homebrew/etc/ca-certificates/cert.pem rbenv install:*)",
+      "Bash(gem uninstall:*)",
+      "Bash(BUNDLE_GEMFILE=Gemfile.local bundle install:*)",
+      "Bash(BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll build:*)"
+    ]
+  }
+}
