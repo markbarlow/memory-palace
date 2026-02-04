@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "First post"
+title: First post
 date: 2026-01-26
-categories: [meta]
-tags: [test]
+categories:
+tags:
+  - test
 ---
 
 This is a test post to verify the sync workflow is working correctly.
