@@ -26,7 +26,10 @@
       "Bash(SSL_CERT_FILE=/opt/homebrew/etc/ca-certificates/cert.pem rbenv install:*)",
       "Bash(gem uninstall:*)",
       "Bash(BUNDLE_GEMFILE=Gemfile.local bundle install:*)",
-      "Bash(BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll build:*)"
+      "Bash(BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll build:*)",
+      "Bash(BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill)"
     ]
   }
 }
