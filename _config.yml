@@ -10,6 +10,7 @@ baseurl: "/memory-palace"
 
 date_format: "%B %Y"
 words_per_minute: 200
+tag_archive_path: /tags/#
 
 google_fonts:
   - name: "Newsreader"
