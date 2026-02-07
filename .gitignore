@@ -10,8 +10,3 @@ Gemfile.local.lock
 # Local development only
 Gemfile.local
 _config_dev.yml
-
-# Symlinks to Obsidian (content synced via GitHub Action)
-_posts
-_drafts
-assets/images/posts/blog
