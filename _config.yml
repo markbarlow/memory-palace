@@ -1,6 +1,6 @@
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/dark.css"
-logo: "/assets/images/logo.png"  
+logo: "/assets/images/logo-white.png"  
 
 locale: en-GB
 title: "Memory Palace"

@@ -30,7 +30,8 @@
       "Bash(BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll:*)",
       "Bash(lsof:*)",
       "Bash(xargs kill)",
-      "Bash(pgrep:*)"
+      "Bash(pgrep:*)",
+      "Bash(ls:*)"
     ]
   }
 }
