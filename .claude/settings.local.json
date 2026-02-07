@@ -29,7 +29,8 @@
       "Bash(BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll build:*)",
       "Bash(BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll:*)",
       "Bash(lsof:*)",
-      "Bash(xargs kill)"
+      "Bash(xargs kill)",
+      "Bash(pgrep:*)"
     ]
   }
 }
