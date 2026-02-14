@@ -31,7 +31,9 @@
       "Bash(lsof:*)",
       "Bash(xargs kill)",
       "Bash(pgrep:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
