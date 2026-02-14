@@ -5,7 +5,6 @@ tags:
   - photos
 obsidianUIMode: source
 obsidianEditingMode: source
-updated: 2026-02-09
 ---
 
 ![A box of diaries](/memory-palace/assets/images/posts/blog/2026/box-of-diaries.jpg)

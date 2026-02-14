@@ -3,6 +3,7 @@ layout: post
 title: Wise words on the W.C. door
 tags:
   - photos
+  - work
 obsidianUIMode: source
 obsidianEditingMode: source
 ---
