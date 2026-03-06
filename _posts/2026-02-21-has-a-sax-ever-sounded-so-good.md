@@ -4,6 +4,7 @@ title: Has a sax ever sounded so good?
 tags:
   - music
   - memories
+updated: 2026-02-23
 ---
 
 
@@ -15,6 +16,6 @@ The tone at the start perfectly communicates the gut-wrenching pain, longing, an
 
 By the outro the same line is played smoothly and fades into the background. It's mournful, melancholy - and defeated. 
 
-The album *A Pagan Place* was introduced to me by J in my first year at university, in his room four doors down from mine. *This is the Sea* was the more well known album, its single *The Whole of the Moon* omnipresent for a while, but this one caps it.
+The album *A Pagan Place* was introduced to me by J in my first year at university, in his room four doors down from mine. *This is the Sea* was the more well known album, its single *The Whole of the Moon* inescapable for a while - but this one caps it.
 
 
