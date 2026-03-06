@@ -3,9 +3,6 @@ layout: post
 title: What to do with a box full of memories?
 tags:
   - photos
-obsidianUIMode: source
-obsidianEditingMode: source
-updated: 2026-02-18
 ---
 
 ![A box of diaries](/memory-palace/assets/images/posts/blog/2026/box-of-diaries.jpg)

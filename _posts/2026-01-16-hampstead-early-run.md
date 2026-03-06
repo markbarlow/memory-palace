@@ -4,8 +4,6 @@ title: The early run gets the view
 tags:
   - photos
   - running
-obsidianUIMode: source
-obsidianEditingMode: source
 ---
 
 ![The model boating pond](/memory-palace/assets/images/posts/blog/2026/hampstead-model-boating-pond.jpg)

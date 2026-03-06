@@ -4,7 +4,6 @@ title: Has a sax ever sounded so good?
 tags:
   - music
   - memories
-updated: 2026-02-23
 ---
 
 

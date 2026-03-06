@@ -3,7 +3,6 @@ layout: post
 title: Up past Clissolds
 tags:
   - memories
-updated: 2026-02-20
 ---
 
 2.30 am on a school night. It’s been a while. 
