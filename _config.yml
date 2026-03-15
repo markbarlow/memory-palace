@@ -25,6 +25,11 @@ feed:
   title: "Memory Palace"
   path: feed.xml
 
+footer_links:
+  - title: Feed
+    url: /feed.xml
+    icon: fas fa-rss-square
+
 paginate: 10
 paginate_path: /page:num/
 
