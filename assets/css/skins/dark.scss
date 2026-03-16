@@ -42,3 +42,12 @@ $base0e: #c792ea;
 $base0f: #ff5370;
 
 @import "so-simple/skin";
+
+/* RSS feed icon: white with transparency */
+.site-footer .social-icon {
+  color: rgba(255, 255, 255, 0.45);
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
