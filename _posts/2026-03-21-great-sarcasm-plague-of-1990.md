@@ -13,13 +13,11 @@ It soon spread.  Now in order to express a positive you had to phrase it negativ
 "A house party on Friday with all the Belvedere girls? *No way I'll be going*".  
 This was not the ironic understatement of litotes; it was simply expressing the opposite of what you meant with tone overturning the meaning. 
 
+![A stave with the notes of carry on](/memory-palace/assets/images/posts/blog/2026/carry-on-stave.jpg){: .align-right} 
 Then the catchphrase "carry on" took off, delivered with exaggerated pronunciation, preferably high pitched - ca-rry-oo-on to the notes C G B F.  
 Someone pushes in the dinner queue, "*ca-rry o-on*".  
 Someone throws a ball of paper at you, "*ca-rry o-on*".  
 Someone starts singing along to the tape player in the sixth form centre, a chorus of "*ca-rry o-on*".
-
-![A stave with the notes of carry on](/memory-palace/assets/images/posts/blog/2026/carry-on-stave.jpg)
-
  
 Next we had the outbreak of "*I'm arsed*". In the introductory phase it was said on its own, once more high pitched, the voice vibrating out from the top and front of the mouth. In the growth phrase it was verbalised in conjunction with the index finger being drawn across the forehead, to suggest the phrase were written there. And in the peak phase, which was reached in days and lasted for weeks, only the finger would be drawn across the forehead. Nothing else was necessary. We had reached the zenith of invisible sarcastic phrases. 
 
