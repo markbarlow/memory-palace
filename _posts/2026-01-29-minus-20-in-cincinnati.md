@@ -4,6 +4,7 @@ title: Minus 20 in Cincinnati
 tags:
   - running
   - memories
+  - photos
 ---
 
 
