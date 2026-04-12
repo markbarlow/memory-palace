@@ -26,6 +26,34 @@
     <div class="entry-excerpt p-summary">
       {% if entry.excerpt %}
         {{ entry.excerpt | markdownify }}
+        {% comment %}
+          If the excerpt is (or contains) a media element — image or iframe — also surface
+          the first prose paragraph from the full post content so the preview has some text.
+          Posts that have only media and no prose show nothing extra (first_text stays empty).
+        {% endcomment %}
+        {% assign excerpt_has_media = false %}
+        {% if entry.excerpt contains '<img' or entry.excerpt contains '<iframe' or entry.excerpt contains '![' %}
+          {% assign excerpt_has_media = true %}
+        {% endif %}
+        {% if excerpt_has_media %}
+          {% assign first_text = "" %}
+          {% assign content_parts = entry.content | split: "<p>" %}
+          {% for part in content_parts %}
+            {% if first_text == "" %}
+              {% comment %}Skip any <p> block that is itself an image — we want prose only{% endcomment %}
+              {% assign para_html = part | split: "</p>" | first | strip %}
+              {% unless para_html contains '<img' %}
+                {% assign para_text = para_html | strip_html | strip %}
+                {% if para_text != "" %}
+                  {% assign first_text = para_text %}
+                {% endif %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+          {% if first_text != "" %}
+            <p class="entry-excerpt-text">{{ first_text }}</p>
+          {% endif %}
+        {% endif %}
       {% endif %}
     </div>
   {% endunless %}
