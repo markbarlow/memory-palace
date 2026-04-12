@@ -20,6 +20,7 @@ google_fonts:
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 feed:
   title: "Memory Palace"
