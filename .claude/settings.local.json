@@ -34,7 +34,10 @@
       "Bash(ls:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "WebFetch(domain:claude.com)",
+      "Bash(claude plugin *)",
+      "Bash(git checkout *)"
     ]
   }
 }
