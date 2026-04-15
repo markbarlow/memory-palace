@@ -133,10 +133,10 @@ blockquote {
 
   a {
     color: $text-color;
-  }
 
-  &-arrow a {
-    color: $text-color;
+    &:hover {
+      color: $accent-color;
+    }
   }
 }
 

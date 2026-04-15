@@ -224,33 +224,16 @@
   &-pages {
     display: flex;
     align-items: baseline;
+    gap: 0.6em;
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: 14px;
 
     li {
-      &::before {
-        content: " / ";
-        opacity: 0.4;
-      }
-
-      &:first-child::before {
-        content: none;
-      }
-
-      &.ellipsis::before {
-        content: " ";
-      }
-
       a {
         text-decoration: none;
         padding: 0 0.1em;
-
-        &:hover {
-          text-decoration: underline;
-          text-underline-offset: 3px;
-        }
       }
 
       &.current {
