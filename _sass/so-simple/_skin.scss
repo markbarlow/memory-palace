@@ -35,6 +35,21 @@ blockquote {
   color: lighten($text-color, 35%);
   a {
     color: lighten($text-color, 35%);
+    text-decoration: none;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+.site-footer {
+  .social-icon {
+    color: lighten($text-color, 35%);
+
+    &:hover {
+      color: $accent-color;
+    }
   }
 }
 
@@ -163,6 +178,7 @@ blockquote {
       color: $accent-color;
     }
   }
+
 }
 
 /* ==========================================================================
