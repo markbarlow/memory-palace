@@ -168,6 +168,16 @@ blockquote {
   color: $text-color;
 }
 
+.layout--post .page-sidebar .page-taxonomy a,
+.layout--post .page-sidebar .page-date a {
+  text-decoration: none;
+
+  &:hover {
+    color: $accent-color;
+    text-decoration: none;
+  }
+}
+
 /* ==========================================================================
    Entries (Posts, collection documents, etc.)
    ========================================================================== */
