@@ -129,20 +129,14 @@ blockquote {
 }
 
 .pagination {
-  li {
-    a {
-      color: mix(#000, $border-color, 25%);
-      border-color: $border-color;
+  color: $text-color;
 
-      &.current,
-      &.current.disabled {
-        @include yiq-contrasted(mix(#000, $border-color, 25%));
-      }
+  a {
+    color: $text-color;
+  }
 
-      &.disabled {
-        color: $border-color;
-      }
-    }
+  &-arrow a {
+    color: $text-color;
   }
 }
 
