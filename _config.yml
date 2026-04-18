@@ -5,7 +5,7 @@ logo: "/assets/images/logo-grey2.png"
 locale: en-GB
 title: "Memory Palace"
 description: "Occasional notes from an incomplete memory palace"
-url: "https://markbarlow.github.io"
+url: "https://www.markbarlow.co.uk"
 baseurl: "/memory-palace"
 
 date_format: "%B %Y"
