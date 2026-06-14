@@ -14,7 +14,7 @@ updated: 2026-04-13
 
 First I wanted to know whether I *could* run in -20C. Then if so, I wanted to know what it felt like.
 
-I was wide awake from 5am with jetlag on the first morning in Cincinnati.  That decided it - today would be the day. I'd originally thought the second morning looked the best bet, and would give me enough time to warm to the idea and build up enough motivation to actually get out of the door. But here I was, opportunity knocked, and before I could persuade myself otherwise the decision was made.
+I was wide awake from 5am with jetlag on the first morning in Cincinnati.  That decided it – today would be the day. I'd originally thought the second morning looked the best bet, and would give me enough time to warm to the idea and build up enough motivation to actually get out of the door. But here I was, opportunity knocked, and before I could persuade myself otherwise the decision was made.
 
 I layered up three tops, two of them the much-missed Iffley Road merino wool. A hat and good gloves. Both leggings and shorts, with socks over the outside for a better seal. I was in two minds about whether to bother with a scarf, and was grateful I did as it proved a godsend. It made a significant difference wrapped over the bottom of my face, protecting my mouth from the cold air and creating a sensation of warmth when I breathed out into it.
 
