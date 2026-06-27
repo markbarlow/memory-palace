@@ -11,6 +11,7 @@ MEMORY_PALACE="$SCRIPT_DIR"
 mkdir -p "$MEMORY_PALACE/_posts"
 mkdir -p "$MEMORY_PALACE/_drafts"
 mkdir -p "$MEMORY_PALACE/assets/images/posts/blog"
+mkdir -p "$MEMORY_PALACE/assets/audio/posts/blog"
 
 # Sync posts
 rsync -av --delete --exclude '.DS_Store' \
@@ -23,5 +24,9 @@ rsync -av --delete --exclude '.DS_Store' \
 # Sync images
 rsync -av --delete --exclude '.DS_Store' \
     "$OBSIDIAN_CONTENT/_assets/" "$MEMORY_PALACE/assets/images/posts/blog/"
+
+# Sync audio
+rsync -av --delete --exclude '.DS_Store' \
+    "$OBSIDIAN_CONTENT/_audio/" "$MEMORY_PALACE/assets/audio/posts/blog/"
 
 echo "✓ Content synced from Obsidian"
