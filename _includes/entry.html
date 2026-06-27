@@ -42,7 +42,7 @@
             {% if first_text == "" %}
               {% comment %}Skip any <p> block that is itself an image — we want prose only{% endcomment %}
               {% assign para_html = part | split: "</p>" | first | strip %}
-              {% unless para_html contains '<img' %}
+              {% unless para_html contains '<img' or para_html contains '<iframe' %}
                 {% if para_html != "" %}
                   {% assign first_text = para_html %}
                 {% endif %}
