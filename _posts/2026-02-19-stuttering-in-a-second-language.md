@@ -6,8 +6,7 @@ tags:
   - books
 ---
 
-
-In Mishima's *The Temple of the Golden Pavilion*, the protaganist Mizoguchi has a stutter. At one point, it is suggested that stutterers speak more fluently in a second language.
+In Mishima's *The Temple of the Golden Pavilion*, the protagonist Mizoguchi has a stutter. At one point, it is suggested that stutterers speak more fluently in a second language.
 
 That piqued my curiosity. At first blush, it looked like it could be true and many [people on forums say as much](https://www.stutteringsociety.com/2021/07/stuttering-in-a-foreign-language/). There's less pressure to speak perfectly, and speaking slowly and deliberately comes with the territory in the early stages of learning a language. The dislocation of a new language can also feel like acting, liberating the speaker from their normal persona. And in a similar vein, the second language lacks the emotional baggage and trauma associated with speaking in the mother tongue.
 

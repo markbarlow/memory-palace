@@ -43,9 +43,8 @@
               {% comment %}Skip any <p> block that is itself an image — we want prose only{% endcomment %}
               {% assign para_html = part | split: "</p>" | first | strip %}
               {% unless para_html contains '<img' %}
-                {% assign para_text = para_html | strip_html | strip %}
-                {% if para_text != "" %}
-                  {% assign first_text = para_text %}
+                {% if para_html != "" %}
+                  {% assign first_text = para_html %}
                 {% endif %}
               {% endunless %}
             {% endif %}
