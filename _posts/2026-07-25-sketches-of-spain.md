@@ -25,7 +25,7 @@ If the heat was intense, so was the build up to Emilio's mother's culinary pride
 
 \* \* \*
 
-Emilio's favourite pastime was to play Dungeons & Dragons with his friends, sat on the cool floor underneath the stairs in the building lobby. This was not my idea of either comfort or fun. I entertained myself as best I could by playing along as *el burro*, the donkey. Emilio found this exasperating as I wasn't taking it seriously. These games would go on for hours, during which I longed for another trip to the municipal pool.
+Emilio's favourite pastime was to play Dungeons & Dragons with his friends, sat on the cool floor underneath the stairs in the building lobby. This was not my idea of either comfort or fun. I entertained myself as best I could by playing along as *el burro*, the donkey. Emilio found this exasperating as I wasn't taking it seriously. These games would go on for hours, during which I longed for another trip to the Canillas municipal pool.
 
 \* \* \*
 
