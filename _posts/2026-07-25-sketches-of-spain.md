@@ -5,7 +5,7 @@ tags:
   - memories
   - language
   - music
-  - books
+  - photos
 ---
 
 ![Sol station, Madrid](/memory-palace/assets/images/posts/blog/2026/madrid-metro-sol.jpg)
