@@ -3,7 +3,6 @@ layout: post
 title: A few small beers
 tags:
   - language
-updated: 2026-04-13
 ---
 
 

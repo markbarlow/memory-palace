@@ -4,6 +4,7 @@ title: The Tale of Genji and Quijote
 tags:
   - books
   - language 
+highlight: true
 ---
 
 ![Tale of Genji scroll and Quijote first edition cover](/memory-palace/assets/images/posts/blog/2026/genji-quijote.jpg)

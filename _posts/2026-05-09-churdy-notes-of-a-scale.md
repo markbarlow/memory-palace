@@ -4,6 +4,7 @@ title: Churdy and the notes of a scale
 tags:
   - memories
   - music 
+highlight: true
 ---
 
 *September 1993, July 1994*  
