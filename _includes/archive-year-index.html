@@ -1,0 +1,25 @@
+{% comment %}
+  Index of the years present on the current archive page, plus a Highlights
+  entry. Scoped to this page's posts, so every anchor always has a target on
+  this page — no cross-page links to maintain once the archive paginates.
+
+  Parameters:
+    posts_by_year   - the grouped slice, from group_by_exp on the page's posts
+    highlight_count - number of highlighted posts (0 to omit the entry)
+{% endcomment %}
+<ul class="taxonomy-index">
+  {% if include.highlight_count > 0 %}
+    <li>
+      <a href="#highlights">
+        <strong>Highlights</strong> <span class="taxonomy-count">{{ include.highlight_count }}</span>
+      </a>
+    </li>
+  {% endif %}
+  {% for year in include.posts_by_year %}
+    <li>
+      <a href="#{{ year.name }}">
+        <strong>{{ year.name }}</strong> <span class="taxonomy-count">{{ year.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

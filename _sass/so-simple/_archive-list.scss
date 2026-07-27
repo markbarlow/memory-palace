@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Archive list (compact title + date listing)
+   ========================================================================== */
+
+.archive-list {
+  margin: 0 0 2em;
+  padding: 0;
+  list-style: none;
+}
+
+.archive-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  gap: 1.5em;
+  padding: 0.5em 0;
+  border-bottom: 1px solid;
+}
+
+.archive-item-title {
+  @include fluid-type($min-vw, $max-vw, 16px, 20px);
+  font-family: $title-font-family;
+  /* Weight is inherited from the body rather than using $entry-title-weight:
+     at this size the lighter entry-title weight reads as washed out. */
+  color: inherit;
+  text-decoration: none;
+  word-wrap: break-word; /* break long words that could overflow */
+}
+
+.archive-item-date {
+  flex-shrink: 0;
+  font-family: $meta-font-family;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+
+/* Highlighted posts block, as used at the top of the archive pages */
+
+.highlights {
+  margin-bottom: 3em;
+}
+
+/* The theme only spaces .taxonomy-index ahead of a .taxonomy-section, so the
+   same gap has to be declared for the highlights block that follows it here. */
+
+.taxonomy-index + .highlights {
+  margin-top: 3em;
+}
+
+.highlights-title {
+  @include fluid-type($min-vw, $max-vw, 28px, 32px);
+  margin-bottom: 0.5em;
+  font-family: $base-font-family;
+}

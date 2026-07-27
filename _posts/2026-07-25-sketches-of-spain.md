@@ -6,6 +6,7 @@ tags:
   - language
   - music
   - photos
+highlight: true
 ---
 
 ![Sol station, Madrid](/memory-palace/assets/images/posts/blog/2026/madrid-metro-sol.jpg)

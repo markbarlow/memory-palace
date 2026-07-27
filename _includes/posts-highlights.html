@@ -1,0 +1,11 @@
+{% comment %}
+  Posts flagged with `highlight: true` in their front matter, newest first.
+  Renders nothing when no post carries the flag, so it is safe to drop anywhere.
+{% endcomment %}
+{% assign highlighted_posts = site.posts | where_exp: "post", "post.highlight" %}
+{% if highlighted_posts.size > 0 %}
+  <section id="highlights" class="highlights">
+    <h2 class="highlights-title">{{ include.title | default: 'Highlights' }}</h2>
+    {% include posts-title-list.html posts=highlighted_posts %}
+  </section>
+{% endif %}

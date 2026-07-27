@@ -1,0 +1,79 @@
+---
+layout: page
+---
+
+{% comment %}
+  Compact archive: post titles and dates only, 100 per page.
+
+  Front matter options:
+    group_by_year - true to break the list up under year headings
+    per_page      - posts per page (default 100)
+    list_page     - which page of the archive this file is (default 1)
+
+  jekyll-paginate cannot paginate anything but the homepage, so pages beyond the
+  first have to exist as real files. Once the blog passes `per_page` posts, add
+  archive-page2.md with `permalink: /archive/page2/` and `list_page: 2`, and so
+  on — the nav below is hidden while there is only one page.
+{% endcomment %}
+
+{{ content }}
+
+{% assign per_page = page.per_page | default: 100 %}
+{% assign current = page.list_page | default: 1 %}
+{% assign total_posts = site.posts | size %}
+{% assign total_pages = total_posts | plus: per_page | minus: 1 | divided_by: per_page %}
+{% assign offset = current | minus: 1 | times: per_page %}
+{% assign page_posts = site.posts | slice: offset, per_page %}
+
+{% comment %}Highlights sit above the list, on the first page only{% endcomment %}
+{% assign highlighted_posts = site.posts | where_exp: "post", "post.highlight" %}
+{% assign show_highlights = false %}
+{% if current == 1 and highlighted_posts.size > 0 %}
+  {% assign show_highlights = true %}
+{% endif %}
+
+{% if page.group_by_year %}
+  {% assign posts_by_year = page_posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% endif %}
+
+{% comment %}
+  The year index links down to the highlights block, so it has to come first.
+  It is only worth showing once this page spans more than one year.
+{% endcomment %}
+{% if page.group_by_year and posts_by_year.size > 1 %}
+  {% if show_highlights %}
+    {% assign index_highlight_count = highlighted_posts | size %}
+  {% else %}
+    {% assign index_highlight_count = 0 %}
+  {% endif %}
+  {% include archive-year-index.html posts_by_year=posts_by_year highlight_count=index_highlight_count %}
+{% endif %}
+
+{% if show_highlights %}
+  {% include posts-highlights.html %}
+{% endif %}
+
+{% if page.group_by_year %}
+  {% for year in posts_by_year %}
+    <section id="{{ year.name }}" class="taxonomy-section">
+      <h2 class="taxonomy-title">{{ year.name }}</h2>
+      {% include posts-title-list.html posts=year.items %}
+    </section>
+  {% endfor %}
+{% else %}
+  {% comment %}
+    Without a heading the flat list would run straight on from the highlights,
+    which repeat some of the same titles.
+  {% endcomment %}
+  {% if show_highlights %}
+    <h2 class="highlights-title">All posts</h2>
+  {% endif %}
+  {% include posts-title-list.html posts=page_posts %}
+{% endif %}
+
+{% comment %}
+  archive_base_url is the permalink of page 1 of this archive. Page-1 files can
+  leave it unset; page-2-and-beyond files must set it explicitly.
+{% endcomment %}
+{% assign archive_base_url = page.archive_base_url | default: page.url %}
+{% include pagination-manual.html current=current total_pages=total_pages base_url=archive_base_url %}

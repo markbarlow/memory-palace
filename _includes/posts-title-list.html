@@ -1,0 +1,12 @@
+{% comment %}
+  Compact post list: title on the left, date on the right. No images or excerpts.
+  Pass an array of posts, e.g. {% include posts-title-list.html posts=page_posts %}
+{% endcomment %}
+<ol class="archive-list">
+  {%- for post in include.posts -%}
+    <li class="archive-item">
+      <a class="archive-item-title" href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a>
+      <time class="archive-item-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
+    </li>
+  {%- endfor -%}
+</ol>

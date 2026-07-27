@@ -1,0 +1,80 @@
+{% comment %}
+  Hand-rolled version of the pagination nav in posts-paginated.html.
+
+  jekyll-paginate v1 can only paginate one page site-wide (the root index.html),
+  so pages other than the homepage have to build their own nav. Same markup and
+  classes as the homepage, so it inherits the same styles.
+
+  Parameters:
+    current      - current page number (1-based)
+    total_pages  - total number of pages
+    base_url     - path of page 1, with trailing slash, e.g. "/archive/"
+                   page 2+ live at base_url + "page2/", "page3/", ...
+{% endcomment %}
+{% if include.total_pages > 1 %}
+{% assign current = include.current %}
+{% assign total_pages = include.total_pages %}
+{% assign first_page_path = include.base_url | relative_url %}
+<nav class="pagination" role="navigation">
+  <div class="pagination-arrow pagination-arrow--prev">
+    {% if current > 1 %}
+      {% assign previous_page = current | minus: 1 %}
+      {% if previous_page == 1 %}
+        <a href="{{ first_page_path }}" aria-label="Previous page"><i class="fas fa-arrow-left"></i></a>
+      {% else %}
+        <a href="{{ include.base_url | append: 'page' | append: previous_page | append: '/' | relative_url }}" aria-label="Previous page"><i class="fas fa-arrow-left"></i></a>
+      {% endif %}
+    {% else %}
+      <span class="pagination-arrow-disabled" aria-hidden="true"><i class="fas fa-arrow-left"></i></span>
+    {% endif %}
+  </div>
+
+  <ol class="pagination-pages">
+    {% comment %} First page {% endcomment %}
+    {% if current == 1 %}
+      <li class="current" aria-current="page">1</li>
+    {% else %}
+      <li><a href="{{ first_page_path }}">1</a></li>
+    {% endif %}
+
+    {% assign page_start = 2 %}
+    {% if current > 4 %}
+      {% assign page_start = current | minus: 2 %}
+      <li class="ellipsis">&hellip;</li>
+    {% endif %}
+
+    {% assign page_end = total_pages | minus: 1 %}
+    {% assign pages_to_end = total_pages | minus: current %}
+    {% if pages_to_end > 4 %}
+      {% assign page_end = current | plus: 2 %}
+    {% endif %}
+
+    {% for index in (page_start..page_end) %}
+      {% if index == current %}
+        <li class="current" aria-current="page">{{ index }}</li>
+      {% else %}
+        <li><a href="{{ include.base_url | append: 'page' | append: index | append: '/' | relative_url }}">{{ index }}</a></li>
+      {% endif %}
+    {% endfor %}
+
+    {% if pages_to_end > 3 %}
+      <li class="ellipsis">&hellip;</li>
+    {% endif %}
+
+    {% if current == total_pages %}
+      <li class="current" aria-current="page">{{ total_pages }}</li>
+    {% else %}
+      <li><a href="{{ include.base_url | append: 'page' | append: total_pages | append: '/' | relative_url }}">{{ total_pages }}</a></li>
+    {% endif %}
+  </ol>
+
+  <div class="pagination-arrow pagination-arrow--next">
+    {% if current < total_pages %}
+      {% assign next_page = current | plus: 1 %}
+      <a href="{{ include.base_url | append: 'page' | append: next_page | append: '/' | relative_url }}" aria-label="Next page"><i class="fas fa-arrow-right"></i></a>
+    {% else %}
+      <span class="pagination-arrow-disabled" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}

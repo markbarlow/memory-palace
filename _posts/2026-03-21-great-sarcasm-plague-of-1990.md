@@ -5,6 +5,7 @@ tags:
   - memories
   - language
 updated: 2026-03-16
+highlight: true
 ---
 The plague started with whole sentences said sarcastically, a superficially positive statement turned mordantly into a negative. "*Oh yeh, I'd love to do that*".  
 

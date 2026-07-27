@@ -155,6 +155,27 @@ blockquote {
   }
 }
 
+/* Mixed toward the background rather than lighten()'d, so the rules and dates
+   recede on a dark skin as well as a light one. */
+
+.archive-item {
+  border-bottom-color: mix($background-color, $text-color, 80%);
+}
+
+.archive-item-title {
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+.archive-item-date {
+  color: mix($background-color, $text-color, 45%);
+}
+
+.highlights-title {
+  color: lighten($text-color, 60%);
+}
+
 .search-input {
   border-color: $border-color;
 }
