@@ -22,6 +22,7 @@ I was looking forward to the hot weather, and hadn't counted on the vampiric liv
 
 \* \* \*
 
+<figure markdown="0" class="align-right" style="width: 55%"><img src="/memory-palace/assets/images/posts/blog/2026/madrid-aug-1990.jpg" alt="Emilio and family"><figcaption>Madrid, 1990</figcaption></figure>
 If the heat was intense, so was the build up to Emilio's mother's culinary pride and joy: her gazpacho. So much so that I had no choice but to profess that I liked it, despite finding it so sour and vinegary that the first mouthful made me want to retch. With my politeness taken at face value, to my distress I was then served gazpacho countless times in the coming days. The proud beaming smile of the mother answered by baleful protestations from my clenched stomach. It would be years until I could appreciate and enjoy gazpacho, thanks to some Cordoban salmorejo offering cold soup acclimatisation.
 
 \* \* \*
