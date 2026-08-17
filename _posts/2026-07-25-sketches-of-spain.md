@@ -6,12 +6,13 @@ tags:
   - language
   - music
   - photos
+period: August 1990
+period_years: [1990]
 highlight: true
 ---
 
 ![Sol station, Madrid](/memory-palace/assets/images/posts/blog/2026/madrid-metro-sol.jpg)
 
-*August 1990*  
 As Emilio and I walked along the exit tunnel from Sol station a man coming in the other direction approached us. He had scorched skin, a black mullet and a short square face which looked like it had been put in a vice. His white vest had seen much better days. He asked the time, and as Emilio lifted his arm to look at his watch the man's hand darted into his unprotected pocket and grabbed his wallet. I froze, surprise multiplied by cowardice. Emilio caught hold of the man's hand on its way out, but before a tug of war could develop the assailant was suddenly pinned against the wall by a passerby. The passerby then pulled the mulleteer's arm out and simultaneously twisted it wrist-upwards, revealing the track marks and exclaiming almost triumphantly "Drogadicto!".  
 
 The summer of 1990 was the [statistical and social peak of Spain's heroin epidemic](https://www.researchgate.net/publication/23796919_Problematic_heroin_use_incidence_trends_in_Spain) , captured in the [cine quinqui](https://en.wikipedia.org/wiki/Quinqui_(film_genre)) film genre, and resulting in a rise in muggings and vigilantism such as this.

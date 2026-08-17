@@ -25,17 +25,26 @@
   {% unless page.show_excerpts == false %}
     <div class="entry-excerpt p-summary">
       {% if entry.excerpt %}
+        {% assign excerpt_has_media = false %}
+        {% if entry.excerpt contains '<img' or entry.excerpt contains '<iframe' or entry.excerpt contains '![' %}
+          {% assign excerpt_has_media = true %}
+        {% endif %}
+        {% comment %}
+          The period belongs directly above the opening prose, where it sat when it was the
+          first line of the post body. A prose excerpt is that opening text, so the period
+          comes before it; a media excerpt is an image or embed, so the period follows it.
+        {% endcomment %}
+        {% unless excerpt_has_media %}
+          {% include page-period.html period=entry.period %}
+        {% endunless %}
         {{ entry.excerpt | markdownify }}
         {% comment %}
           If the excerpt is (or contains) a media element — image or iframe — also surface
           the first prose paragraph from the full post content so the preview has some text.
           Posts that have only media and no prose show nothing extra (first_text stays empty).
         {% endcomment %}
-        {% assign excerpt_has_media = false %}
-        {% if entry.excerpt contains '<img' or entry.excerpt contains '<iframe' or entry.excerpt contains '![' %}
-          {% assign excerpt_has_media = true %}
-        {% endif %}
         {% if excerpt_has_media %}
+          {% include page-period.html period=entry.period %}
           {% assign first_text = "" %}
           {% assign content_parts = entry.content | split: "<p>" %}
           {% for part in content_parts %}
