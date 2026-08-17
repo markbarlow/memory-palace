@@ -1,0 +1,15 @@
+{% comment %}
+  The time a post is *about*, from `period` in its front matter -- distinct from the publish
+  date. Free text, displayed verbatim, e.g. `period: August 1990`.
+
+  Renders nothing when the field is absent, so it is safe to drop anywhere. Pass the value
+  explicitly where `page` is not the post, as in the homepage entry loop:
+  {% include page-period.html period=entry.period %}
+
+  Posts may also carry `period_years` (e.g. [1993, 1994]) for grouping or filtering later.
+  Nothing reads it yet.
+{% endcomment %}
+{% assign period = include.period | default: page.period %}
+{% if period %}
+  <p class="period"><em>{{ period }}</em></p>
+{% endif %}

@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Period (the time a post is about, from its `period` front matter)
+   ========================================================================== */
+
+/* The period reads as a line above the opening paragraph rather than a paragraph
+   of its own, which is how it looked when it was the first line of the body,
+   separated by a line break. Italics come from the <em> in the markup. */
+
+.period {
+  margin-bottom: 0.25em;
+}
+
+/* In the homepage entry list the gap has to close up completely to match the
+   line break it replaces. Font size is already normalised for us by
+   `.entry-excerpt > *` in _entries.scss. */
+
+.entry-excerpt .period {
+  margin-bottom: 0;
+}

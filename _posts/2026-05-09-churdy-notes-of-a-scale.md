@@ -4,10 +4,11 @@ title: Churdy and the notes of a scale
 tags:
   - memories
   - music 
+period: "September 1993, July 1994"
+period_years: [1993, 1994]
 highlight: true
 ---
 
-*September 1993, July 1994*  
 He had a stout frame, long straight black hair, and a round and warm face – a cross between [Zed from Police Academy](https://www.imdb.com/title/tt0089822/characters/nm0001281/) and [Argyle from Stranger Things](https://strangerthings.fandom.com/wiki/Argyle).
 
 Here was Churdy, sat opposite me in a cafe in Valencia, Venezuela, in my first month there. He was a friend of Martha, the teacher sub-letting a room to me in her flat. This was the amicable period, long before she decided flat sharing was a bad idea and asked me to find somewhere else (with some justification). 

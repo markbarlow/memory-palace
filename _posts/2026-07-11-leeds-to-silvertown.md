@@ -5,11 +5,12 @@ tags:
   - photos
   - memories
   - music
+period: "October 2006 then January 2026"
+period_years: [2006, 2026]
 ---
 
 ![Brody & Quint](/memory-palace/assets/images/posts/blog/2026/brodyandquint.jpg)
 
-*October 2006 then January 2026*  
 When playing in [*Brody & Quint*](https://music.apple.com/us/artist/brody-quint/196486483) with Rosemary and Anna, we gigged regularly in London and from time to time would do a small tour of the North playing at venues in Manchester, Bolton, Sheffield and Leeds. 
 
 On one occasion in Leeds we hit it off with a band on the bill called *The Avenues*, so much so that we returned a few months later to play at the launch of their second album *Love, Life and The Giant Leap*. We subsequently helped set them up for a gig in London.
