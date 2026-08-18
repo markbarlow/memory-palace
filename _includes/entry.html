@@ -65,10 +65,19 @@
       {% endif %}
     </div>
   {% endunless %}
-  {% if site.read_time or entry.date and page.layout != 'collection' %}
+  {% comment %}
+    No visible publish date in list views: it reads as a second date next to the post's `period`
+    (the time the post is about), which sits right above it here. The post page carries the
+    publish date instead, labelled PUBLISHED. The date stays in the markup but hidden, so the
+    h-entry microformat keeps its dt-published.
+  {% endcomment %}
+  {% if entry.date and page.layout != 'collection' %}
+    {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
+    <time class="dt-published screen-reader-text" datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: date_format }}</time>
+  {% endif %}
+  {% if site.read_time %}
     <footer class="entry-meta">
-      {% if site.read_time %}{% include read-time.html %}{% endif %}
-      {% if entry.date %}{% include entry-date.html %}{% endif %}
+      {% include read-time.html %}
     </footer>
   {% endif %}
 </article>
