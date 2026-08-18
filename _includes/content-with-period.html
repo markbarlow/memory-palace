@@ -1,0 +1,39 @@
+{% comment %}
+  The post body with the `period` line inserted directly above its first prose paragraph,
+  which is where it sat when it was the first line of the body and where the homepage entry
+  puts it (see entry.html). Rendering it ahead of the whole body instead would push it above
+  a leading image or embed.
+
+  Posts without a period, and bodies with no prose at all, fall through unchanged.
+{% endcomment %}
+{%- capture period_html -%}{%- include page-period.html -%}{%- endcapture -%}
+{%- assign period_html = period_html | strip -%}
+
+{%- if period_html == "" -%}
+  {{ content }}
+{%- else -%}
+  {%- assign chunks = content | split: "<p>" -%}
+  {%- assign body = "" -%}
+  {%- assign inserted = false -%}
+  {%- for chunk in chunks -%}
+    {%- if forloop.first -%}
+      {%- comment -%}Anything before the first <p>: a raw figure, iframe or embed div{%- endcomment -%}
+      {%- assign body = body | append: chunk -%}
+    {%- else -%}
+      {%- unless inserted -%}
+        {%- comment -%}Skip <p> blocks that are only media -- we want the first prose{%- endcomment -%}
+        {%- assign para = chunk | split: "</p>" | first | strip -%}
+        {%- unless para == "" or para contains '<img' or para contains '<iframe' -%}
+          {%- assign body = body | append: period_html -%}
+          {%- assign inserted = true -%}
+        {%- endunless -%}
+      {%- endunless -%}
+      {%- assign body = body | append: "<p>" | append: chunk -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- unless inserted -%}
+    {%- comment -%}No prose to sit above, so the period goes after the media{%- endcomment -%}
+    {%- assign body = body | append: period_html -%}
+  {%- endunless -%}
+  {{ body }}
+{%- endif -%}
