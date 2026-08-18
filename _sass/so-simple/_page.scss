@@ -74,9 +74,8 @@
     font-family: $meta-font-family;
     font-style: normal;
     white-space: nowrap;
-  }
 
-  .read-time {
+    /* Each drops under its label in the sidebar column, as the tag list does */
     @include breakpoint($large) {
       display: block;
     }
@@ -108,6 +107,7 @@
   }
 }
 
+.page-date-title,
 .page-taxonomies-title {
   display: inline;
   padding-right: 0.5em;
