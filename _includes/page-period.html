@@ -1,13 +1,17 @@
 {% comment %}
   The time a post is *about*, from `period` in its front matter -- distinct from the publish
-  date. Free text, displayed verbatim, e.g. `period: August 1990`.
+  date. Free text, displayed verbatim, e.g. `period: "August 1990"`.
+
+  Always quote the value. Unquoted, a leading asterisk pasted from the italic line this
+  replaced (`period: *August 1990*`) is a YAML alias and fails the build, and a bare year or
+  date is coerced to a number or a Date rather than kept as the text you typed.
 
   Renders nothing when the field is absent, so it is safe to drop anywhere. Pass the value
   explicitly where `page` is not the post, as in the homepage entry loop:
   {% include page-period.html period=entry.period %}
 
   Posts may also carry `period_years` (e.g. [1993, 1994]) for grouping or filtering later.
-  Nothing reads it yet.
+  Leave those unquoted so they stay numeric. Nothing reads them yet.
 {% endcomment %}
 {% assign period = include.period | default: page.period %}
 {% if period %}

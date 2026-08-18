@@ -6,7 +6,7 @@ tags:
   - language
   - music
   - photos
-period: August 1990
+period: "August 1990"
 period_years: [1990]
 highlight: true
 ---
