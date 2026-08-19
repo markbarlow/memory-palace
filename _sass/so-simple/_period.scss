@@ -9,19 +9,19 @@
    muted (_skin.scss), so the two stay in step. */
 
 .period {
-  margin-bottom: 0.25em;
+  /* A third of the 1.5rem paragraph rhythm (_reset.scss), and the same small gap
+     the theme puts under an entry image (_entries.scss). In rem rather than em so
+     it does not shrink along with the smaller type. */
+  margin-bottom: 0.5rem;
   font-size: 0.8em;
 }
 
-/* In the homepage entry list the gap has to close up completely to match the
-   line break it replaces.
-
-   The size has to be restated because the theme normalises excerpt children to
-   1em (`.entry-excerpt > *` in _entries.scss, for both the list and grid
-   layouts). Specificity ties at (0,2,0), so this wins on source order alone --
-   _sass/so-simple.scss must keep importing `period` after `entries`. */
+/* The size has to be restated for the entry lists because the theme normalises
+   excerpt children to 1em (`.entry-excerpt > *` in _entries.scss, for both the
+   list and grid layouts). Specificity ties at (0,2,0), so this wins on source
+   order alone -- _sass/so-simple.scss must keep importing `period` after
+   `entries`. The margin above needs no such override and carries through. */
 
 .entry-excerpt .period {
-  margin-bottom: 0;
   font-size: 0.8em;
 }
