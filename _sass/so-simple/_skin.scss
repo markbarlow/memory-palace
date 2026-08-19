@@ -168,7 +168,11 @@ blockquote {
   }
 }
 
-.archive-item-date {
+/* The period is metadata of the same kind as an archive row's date, and shares
+   its muted colour so the two cannot drift apart. */
+
+.archive-item-date,
+.period {
   color: mix($background-color, $text-color, 45%);
 }
 

@@ -4,16 +4,24 @@
 
 /* The period reads as a line above the opening paragraph rather than a paragraph
    of its own, which is how it looked when it was the first line of the body,
-   separated by a line break. Italics come from the <em> in the markup. */
+   separated by a line break. Size and colour mark it as metadata -- both are
+   shared with the archive rows, whose date is 0.8em (_archive-list.scss) and
+   muted (_skin.scss), so the two stay in step. */
 
 .period {
   margin-bottom: 0.25em;
+  font-size: 0.8em;
 }
 
 /* In the homepage entry list the gap has to close up completely to match the
-   line break it replaces. Font size is already normalised for us by
-   `.entry-excerpt > *` in _entries.scss. */
+   line break it replaces.
+
+   The size has to be restated because the theme normalises excerpt children to
+   1em (`.entry-excerpt > *` in _entries.scss, for both the list and grid
+   layouts). Specificity ties at (0,2,0), so this wins on source order alone --
+   _sass/so-simple.scss must keep importing `period` after `entries`. */
 
 .entry-excerpt .period {
   margin-bottom: 0;
+  font-size: 0.8em;
 }
