@@ -4,9 +4,11 @@ title: F# on the recorder
 tags:
   - memories
   - music
+period: "Early 1980s"
+period_years: [1981, 1982, 1983, 1984]
 ---
 
-In infant school the class had collective recorder lessons, each of us equipped with a black and white Yamaha descant recorder.  What I recall most is that I liked playing F#. 
+In junior school the class had collective recorder lessons, each of us equipped with a black and white Yamaha descant recorder.  What I recall most is that I liked playing F#. 
 
 I started playing the violin at about the same time, so perhaps the key of G was already familiar. Whichever came first, the violin or the recorder, I was moving away from C and encountering my first sharp note. 
 

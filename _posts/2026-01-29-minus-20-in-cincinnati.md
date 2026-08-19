@@ -5,6 +5,8 @@ tags:
   - running
   - memories
   - photos
+period: "January 2026"
+period_years: [2026]
 ---
 
 

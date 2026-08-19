@@ -4,6 +4,8 @@ title: The great sarcasm plague of 1990
 tags:
   - memories
   - language
+period: "A few weeks in 1990"
+period_years: [1990]
 ---
 The plague started with whole sentences said sarcastically, a superficially positive statement turned mordantly into a negative. "*Oh yeh, I'd love to do that*".  
 

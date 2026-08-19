@@ -3,6 +3,8 @@ layout: post
 title: Up past Clissolds
 tags:
   - memories
+period: "February 2026"
+period_years: [2026]
 ---
 
 2.30 am on a school night. It’s been a while. 

@@ -4,7 +4,8 @@ title: Wise words on the W.C. door
 tags:
   - photos
   - work
-updated: 2026-03-09
+period: "January 2026"
+period_years: [2026]
 ---
 
 ![Image title](/memory-palace/assets/images/posts/blog/2026/disconnect-your-mic.jpg)

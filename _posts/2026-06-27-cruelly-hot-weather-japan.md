@@ -4,6 +4,8 @@ title: Cruelly hot weather in Japan
 tags:
   - photos
   - language
+period: "August 2025, April 2026"
+period_years: [2025, 2026]
 ---
 
 ![Image title](/memory-palace/assets/images/posts/blog/2026/tokyo-summer-heat.jpg)

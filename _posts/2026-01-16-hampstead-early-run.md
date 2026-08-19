@@ -4,7 +4,8 @@ title: The early run gets the view
 tags:
   - photos
   - running
-updated: 2026-03-09
+period: "January 2026"
+period_years: [2026]
 ---
 
 ![The model boating pond](/memory-palace/assets/images/posts/blog/2026/hampstead-model-boating-pond.jpg)

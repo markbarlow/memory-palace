@@ -5,6 +5,8 @@ tags:
   - photos
   - memories
   - language
+period: "January 1996, January 2025"
+period_years: [1996, 2025]
 ---
 
 

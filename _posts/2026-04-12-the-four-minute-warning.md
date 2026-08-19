@@ -4,6 +4,8 @@ title: The four-minute warning
 tags:
   - memories
   - photos
+period: "1982 to 1987"
+period_years: [1982, 1983, 1984, 1985, 1986, 1987]
 ---
 
 

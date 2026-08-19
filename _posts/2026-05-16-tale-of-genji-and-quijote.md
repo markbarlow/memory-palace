@@ -4,6 +4,8 @@ title: The Tale of Genji and Quijote
 tags:
   - books
   - language 
+period: "2025 to 2026"
+period_years: [2025, 2026]
 highlight: true
 ---
 
