@@ -8,7 +8,7 @@ period: "August 2025, April 2026"
 period_years: [2025, 2026]
 ---
 
-![Image title](/memory-palace/assets/images/posts/blog/2026/tokyo-summer-heat.jpg)
+![Tokyo scene in summer](/memory-palace/assets/images/posts/blog/2026/tokyo-summer-heat.jpg)
 
 I was not prepared for the intense heat of Tokyo in August. It sees your jetlag as you step out of the airpot, doubles it, and laughs at your disorientation all the way to the train station where you will get lost just trying to find the exit. So it is undoubtedly apt that  [Japan recently unveiled the new word *kokushobi* for days that reach 40C or above](https://www.bbc.co.uk/news/articles/crr185nx0n9o), based on the word *koku* meaning harsh or cruel. "Cruelly hot weather" suggests an animus, a vindictiveness, a weather that has got personal. 
 

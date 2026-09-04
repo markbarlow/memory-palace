@@ -19,7 +19,7 @@ I was wide awake from 5am with jetlag on the first morning in Cincinnati.  That 
 
 I layered up three tops, two of them the much-missed Iffley Road merino wool. A hat and good gloves. Both leggings and shorts, with socks over the outside for a better seal. I was in two minds about whether to bother with a scarf, and was grateful I did as it proved a godsend. It made a significant difference wrapped over the bottom of my face, protecting my mouth from the cold air and creating a sensation of warmth when I breathed out into it.
 
-![Cincinnati weather](/memory-palace/assets/images/posts/blog/2026/cincinnati-minus20.jpg){: .align-right} 
+![Cincinnati weather minus 20](/memory-palace/assets/images/posts/blog/2026/cincinnati-minus20.jpg){: .align-right} 
 
 I was fully prepared to step out of the door and knock the idea on the head right away if it was too cold to handle. But initially I didn't freeze. Some parts of the pavement were salted, though I was wary of ice, and in other places I had to trudge through deep snow. Initially it was nothing short of exhilarating to be out in this weather, adrenaline pumping, living a new experience. The snow on the ground, the darkness before dawn, the city lights. 
 
