@@ -1,0 +1,21 @@
+name: Daily Pages rebuild
+
+# Jekyll skips future-dated posts, and Pages only rebuilds on push.
+# Rebuilding daily lets scheduled posts go live on their date.
+on:
+  schedule:
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  contents: read
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request a Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${{ github.repository }}/pages/builds"
