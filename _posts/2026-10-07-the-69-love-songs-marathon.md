@@ -7,7 +7,6 @@ tags:
   - running
 period: "Autumn 1999 then 24 November 2023"
 period_years: [1999, 2023]
-highlight: true
 ---
 
 
