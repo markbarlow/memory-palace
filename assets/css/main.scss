@@ -30,3 +30,12 @@ body {
 img.align-right {
   max-width: 40%;
 }
+
+figure.align-right,
+figure.align-left {
+  margin-bottom: 0.25rem;
+
+  figcaption {
+    margin-bottom: 0;
+  }
+}
