@@ -4,6 +4,7 @@ title: Carried in the arms of cheerleaders
 tags:
   - memories
   - music
+  - school
 period: "Summer 1990"
 period_years: [1990]
 ---

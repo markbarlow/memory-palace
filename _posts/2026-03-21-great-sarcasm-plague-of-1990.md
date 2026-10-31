@@ -4,6 +4,7 @@ title: The great sarcasm plague of 1990
 tags:
   - memories
   - language
+  - school
 period: "A few weeks in 1990"
 period_years: [1990]
 ---

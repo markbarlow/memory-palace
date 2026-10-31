@@ -6,6 +6,7 @@ tags:
   - language
   - music
   - photos
+  - school
 period: "August 1990"
 period_years: [1990]
 highlight: true

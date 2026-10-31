@@ -4,6 +4,7 @@ title: F# on the recorder
 tags:
   - memories
   - music
+  - school
 period: "Early 1980s"
 period_years: [1981, 1982, 1983, 1984]
 ---

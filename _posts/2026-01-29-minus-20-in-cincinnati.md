@@ -5,6 +5,7 @@ tags:
   - running
   - memories
   - photos
+  - school
 period: "January 2026"
 period_years: [2026]
 ---

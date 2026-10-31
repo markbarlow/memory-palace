@@ -4,6 +4,7 @@ title: Scrap! Scrap! Scrap! On Western Drive
 tags:
   - memories
   - language
+  - school
 period: "Some time in the early 80s"
 period_years: [1982, 1983, 1984]
 ---
